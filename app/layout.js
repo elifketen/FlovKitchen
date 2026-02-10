@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <header>
+        <header className="navbar">
           <nav>
             <Link href="/">Home</Link>
             <Link href="/recipes">Recipes</Link>

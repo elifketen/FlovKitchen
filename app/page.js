@@ -1,3 +1,4 @@
+import RecipeCard from "../components/RecipeCard";
 import Newsletter from "../components/Newsletter";
 export default function Home() {
   return (
@@ -9,8 +10,38 @@ export default function Home() {
         </figure>
         <div className="container hero-text">
           <h1>Healthy Recipes</h1>
-          <h2>Recipes that support your body naturally</h2>
+          <p>Recipes that support your body naturally</p>
           <button type="button">Explore</button>
+        </div>
+      </section>
+
+      {/* FEATURED RECIPES */}
+      <section>
+        <header className="featured-recipes-header">
+          <h2>Featured Recipes</h2>
+          <button type="button">View All Recipes</button>
+        </header>
+        <div className="recipe-card-row">
+          <RecipeCard
+            slug="avocado-toast"
+            title="Avocado Toast"
+            meta="5 ingredients 10 min"
+          />
+          <RecipeCard
+            slug="chia-pudding"
+            title="Chia Pudding"
+            meta="4 ingredients 5 min"
+          />
+          <RecipeCard
+            slug="overnight-oats"
+            title="Overnight Oats"
+            meta="4 ingredients 3 min"
+          />
+          <RecipeCard
+            slug="green-smoothie"
+            title="Green Smoothie"
+            meta="3 ingredients 3 min"
+          />
         </div>
       </section>
       <Newsletter />
