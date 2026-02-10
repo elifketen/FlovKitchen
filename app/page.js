@@ -1,3 +1,4 @@
+import Newsletter from "../components/Newsletter";
 export default function Home() {
   return (
     <main>
@@ -7,6 +8,7 @@ export default function Home() {
         Morbi molestie a leo ac hendrerit.
       </p>
       <img src="https://picsum.photos/200" alt="Random placeholder" />
+      <Newsletter />
     </main>
   );
 }
