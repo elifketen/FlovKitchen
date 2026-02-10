@@ -60,13 +60,13 @@ main {
 /* HEADER */
 header {
   border-bottom: 1px solid #ddd;
-  background-color: #e0ab90;
+  background-color: #ddeb9d;
   padding: 1rem;
 }
 /* FOOTER */
 footer {
   border-top: 1px solid #ddd;
-  background-color: #e0ab90;
+  background-color: #ddeb9d;
   padding: 1rem;
 }
 
@@ -77,4 +77,30 @@ footer p {
 }
 nav {
   text-align: center;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  background-color: #faf6e9;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.hero-image {
+  width: 40%;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 5%;
 }
