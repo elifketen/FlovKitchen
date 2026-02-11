@@ -1,6 +1,6 @@
 export default function Newsletter() {
   return (
-    <section>
+    <section className="newsletter">
       <h2>Want more free, delicious & healthy recipes?</h2>
       <p>Subscribe to my newsletter</p>
       <form>

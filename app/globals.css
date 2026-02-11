@@ -135,3 +135,9 @@ nav {
   position: absolute;
   right: 2rem;
 }
+/* NEWSLETTER */
+.newsletter {
+  padding: 16px;
+  text-align: center;
+  background-color: #cbe7e9;
+}
